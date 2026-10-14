@@ -59,8 +59,7 @@ class SubtitleReader(private val ctx: Context) {
                 if (size < 0) break
 
                 val startUs = ex.sampleTime
-                val durUs = ex.sampleDuration
-                val endUs = if (durUs > 0) startUs + durUs else startUs + 2000000L
+                val endUs = startUs + 2000000L
 
                 buf.position(0)
                 buf.limit(size)
