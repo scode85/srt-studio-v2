@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SRT Studio</string>
+    <string name="pick_video">Chọn video</string>
+    <string name="extract">Trích xuất ra SRT</string>
+    <string name="no_video">Chưa chọn video</string>
+    <string name="tracks_label">Track phụ đề:</string>
+    <string name="log_placeholder">Log sẽ hiển thị ở đây</string>
+</resources>
